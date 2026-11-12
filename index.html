@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jas Martinez — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="sp-on">
+<div class="sp" id="sp"><div class="pw"><div class="ph" data-img="jas.jpg">JM</div></div><span class="rl">Professional Dancer · Choreographer</span><h2>Jas Martinez</h2><button class="btn p" type="button">Enter portfolio →</button></div>
+<div class="bg" id="shapes"></div><div class="glow" id="gw"></div><div id="pb"></div>
+<header class="top">
+  <div class="logo" data-go="home">JM<b>.</b></div>
+  <div class="nr">
+    <button class="pf" data-go="profile" aria-label="Open my profile"><span class="nm">Jas Martinez</span><span class="ring"><span class="ph av" data-img="jas.jpg">JM</span></span></button>
+    <button class="ib snd off" id="snd" aria-label="Play music"><span>♫</span></button>
+    <button class="ib tg" id="tg" aria-label="Switch to dark mode"><span class="sn">☀︎</span><span class="mn">☾</span></button>
+    <button class="ib burger" id="bg" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  </div>
+</header>
+<nav class="menu" id="menu">
+  <button data-go="home"><small>01</small>Home</button>
+  <button data-go="profile"><small>02</small>Profile</button>
+  <button data-go="work"><small>03</small>Work</button>
+  <button data-go="services"><small>04</small>Services</button>
+  <button data-go="gallery"><small>05</small>Gallery</button>
+  <button data-go="about"><small>06</small>About</button>
+  <button data-go="contact"><small>07</small>Contact</button>
+  <p>JAS MARTINEZ · PORTFOLIO</p>
+</nav>
+<audio id="au" src="soundtrack.mp3" loop preload="auto"></audio>
+<div class="cur" id="cur"></div>
+
+<main>
+<div class="page act" id="home">
+  <div class="wrap hero">
+    <div>
+      <span class="label rv">Portfolio · 2026</span>
+      <h1 class="rv" style="--d:.1s">Hello,<br>I’m <i>Jas</i><br>Martinez.</h1>
+      <p class="role rv" style="--d:.2s">I’m a <b id="tp"></b><u></u></p>
+      <p class="sub rv" style="--d:.25s">I turn music and emotion into movement — on stage, on screen and in the studio.</p>
+      <div class="btns rv" style="--d:.3s"><button class="btn p" data-go="work">View my work →</button><button class="btn" data-go="contact">Say hello</button></div>
+    </div>
+    <div class="portrait rv" style="--d:.2s">
+      <div class="ph" data-l="Add your photo: jas.jpg" data-img="jas.jpg">JM</div>
+      <div class="tag">💃 Open for bookings</div><div class="tag t2">✦ Based in the Philippines</div>
+    </div>
+  </div>
+  <div class="strip"><div id="mq"></div></div>
+  <section><div class="wrap stats rv">
+    <div><b data-n="12">0</b><span>Performances</span></div><div><b data-n="3">0</b><span>Years dancing</span></div><div><b data-n="100">0</b><span>% Passion</span></div>
+  </div></section>
+  <section style="padding-top:20px"><div class="wrap">
+    <span class="label rv">Featured</span><h2 class="tt rv">Recent <i>work.</i></h2>
+    <div class="grid" id="featured"></div>
+    <div class="btns rv"><button class="btn" data-go="work">See all work →</button></div>
+  </div></section>
+</div>
+
+<div class="page" id="work"><section><div class="wrap">
+  <span class="label rv">Portfolio</span><h1 class="tt rv">Selected <i>work.</i></h1>
+  <p class="sub rv">Tap any piece to see it larger.</p>
+  <div class="chips rv" id="chips"></div>
+  <div class="grid" id="all"></div>
+</div></section></div>
+
+<div class="page" id="about"><section><div class="wrap about">
+  <div class="col rv">
+    <div class="ph a" data-l="jas-2.jpg" data-img="jas-2.jpg">JM</div>
+    <div class="ph" data-l="jas-3.jpg" data-img="jas-3.jpg"></div>
+    <div class="ph" data-l="jas-4.jpg" data-img="jas-4.jpg"></div>
+  </div>
+  <div class="rv" style="--d:.15s">
+    <span class="label">About me</span><h1 class="tt">Driven by rhythm &amp; <i>always moving.</i></h1>
+    <p>Hi, I’m Jas! I’m a professional dancer and choreographer. I love turning music and emotion into movement that audiences feel — whether I’m performing on stage or building a piece from the very first count.</p>
+    <p>Replace this paragraph with your own story: where you’re from, what drives you and what you’re aiming for.</p>
+    <div class="tl"><div><span>NOW</span><b>Current company, crew or studio</b></div><div><span>BEFORE</span><b>Notable show, competition or tour</b></div><div><span>START</span><b>Where you started dancing</b></div></div>
+    <div class="sk" id="sk"></div>
+  </div>
+</div></section></div>
+
+<div class="page" id="contact"><section><div class="wrap">
+  <span class="label rv">Get in touch</span><h1 class="tt rv">Let’s create something <i>unforgettable.</i></h1>
+  <div class="cg">
+    <div class="rv"><p class="sub" style="margin:0">Booking a performance, choreography or a class? I’d love to hear from you.</p>
+      <a class="m" href="mailto:jas@example.com">jas@example.com</a>
+      <div class="soc"><a href="#">Instagram ↗</a><a href="#">TikTok ↗</a><a href="#">YouTube ↗</a></div></div>
+    <form class="rv" style="--d:.15s" id="f">
+      <label for="n">Your name</label><input id="n" required placeholder="Jane Doe">
+      <label for="e">Email</label><input id="e" type="email" required placeholder="you@email.com">
+      <label for="m">Message</label><textarea id="m" required placeholder="Tell me about your event or idea…"></textarea>
+      <button class="btn p" type="submit">Send message ↗</button>
+    </form>
+  </div>
+</div></section></div>
+
+<div class="page" id="profile"><section><div class="wrap">
+  <span class="label rv">My profile</span><h1 class="tt rv">The person <i>behind the work.</i></h1>
+  <div class="id gl rv">
+    <div class="ph" data-l="jas.jpg" data-img="jas.jpg">JM</div>
+    <div class="bd">
+      <h2>Jas Martinez</h2><p class="hl">Professional Dancer · Choreographer · Creative Thinker</p>
+      <div class="dt"><div><span>Location</span><b>Philippines</b></div><div><span>Status</span><b>Open to bookings</b></div><div><span>Focus</span><b>Dance &amp; Choreography</b></div><div><span>Email</span><b>jas@example.com</b></div></div>
+      <div class="bars" id="bars"></div>
+      <div class="btns"><button class="btn p" data-go="contact">Book me →</button><button class="btn" data-go="work">See my work</button></div>
+    </div>
+  </div>
+</div></section></div>
+
+<div class="page" id="services"><section><div class="wrap">
+  <span class="label rv">What I offer</span><h1 class="tt rv">Movement made <i>with feeling.</i></h1>
+  <div class="sg" id="sv"></div>
+  <div class="steps"><div class="gl rv">Concept<small>Understand the vision</small></div><div class="gl rv" style="--d:.1s">Create<small>Build the movement</small></div><div class="gl rv" style="--d:.2s">Rehearse<small>Refine every count</small></div><div class="gl rv" style="--d:.3s">Perform<small>Bring it to the stage</small></div></div>
+  <div class="btns rv"><button class="btn p" data-go="contact">Book a performance →</button></div>
+</div></section></div>
+
+<div class="page" id="gallery"><section><div class="wrap">
+  <span class="label rv">Moments</span><h1 class="tt rv">Moments in <i>motion.</i></h1>
+  <div class="gal" id="gl"></div>
+</div></section></div>
+</main>
+<footer>© <span id="yr"></span> Jas Martinez · Made with care</footer>
+
+<div class="modal" id="md"><div class="mbox"><button class="x" id="mx" aria-label="Close">×</button><div class="ph" id="mi"></div><div class="in"><small id="mc" class="label"></small><h2 id="mt"></h2><p id="mp"></p></div></div></div>
+
+<script>
+/* ===== EDIT YOUR CONTENT HERE =====
+   Photos go in the same folder as this file.
+   You: jas.jpg, jas-2.jpg, jas-3.jpg, jas-4.jpg, jas-5.jpg, jas-6.jpg   Your works: work-1.jpg ... work-6.jpg */
+var EMAIL="jas@example.com";
+var roles=["Professional Dancer","Choreographer","Performer","Dance Educator"];
+var skills=["Contemporary","Hip-Hop","Choreography","Improvisation","Stage Performance","Teaching"];
+var works=[
+ {t:"Stage Piece",c:"Stage",d:"Describe this piece: the concept, your role, the venue and the result.",i:"work-1.jpg"},
+ {t:"Music Video",c:"Video",d:"Describe this piece: the artist, your role as dancer or choreographer, and the result.",i:"work-2.jpg"},
+ {t:"Brand Commercial",c:"Commercial",d:"Describe this project: the brand, your role and the result.",i:"work-3.jpg"},
+ {t:"Live Showcase",c:"Stage",d:"Describe this piece: the concept, your role, the venue and the result.",i:"work-4.jpg"},
+ {t:"Dance Film",c:"Video",d:"Describe this piece: the story, your role and the result.",i:"work-5.jpg"},
+ {t:"Workshop Series",c:"Class",d:"Describe this class or workshop: the style, the students and what they achieved.",i:"work-6.jpg"}];
+
+var $=function(s){return document.querySelector(s)},$$=function(s){return [].slice.call(document.querySelectorAll(s))};
+
+/* theme: light / dark */
+var root=document.documentElement;
+function setTheme(t,save){root.dataset.theme=t;$("#tg").setAttribute("aria-label",t==="dark"?"Switch to light mode":"Switch to dark mode");
+ if(save){try{localStorage.setItem("jm-theme",t)}catch(e){}}}
+(function(){var t=null;try{t=localStorage.getItem("jm-theme")}catch(e){}
+ if(t!=="dark"&&t!=="light")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";setTheme(t,false)})();
+$("#tg").onclick=function(){setTheme(root.dataset.theme==="dark"?"light":"dark",true)};
+
+function loadImgs(root){(root||document).querySelectorAll(".ph[data-img]:not([data-done])").forEach(function(p){
+ p.dataset.done=1;var im=new Image();im.alt="";im.onload=function(){p.textContent="";p.removeAttribute("data-l");p.appendChild(im)};im.src=p.dataset.img})}
+
+function card(w,i){return '<article class="card rv" data-c="'+w.c+'" data-i="'+i+'" style="--d:'+(i%3)*.1+'s"><div class="ph" data-l="'+w.i+'" data-img="'+w.i+'">'+w.t+'</div><div class="in"><small>'+w.c+'</small><h3>'+w.t+'</h3><p>'+w.d+'</p><span class="go">View piece →</span></div></article>'}
+$("#featured").innerHTML=works.slice(0,3).map(card).join("");
+$("#all").innerHTML=works.map(card).join("");
+var cats=["All"].concat(works.map(function(w){return w.c}).filter(function(c,i,a){return a.indexOf(c)===i}));
+$("#chips").innerHTML=cats.map(function(c,i){return '<button class="'+(i?"":"on")+'">'+c+'</button>'}).join("");
+$("#chips").onclick=function(e){var b=e.target.closest("button");if(!b)return;$$("#chips button").forEach(function(x){x.classList.toggle("on",x===b)});
+ $$("#all .card").forEach(function(c){c.classList.toggle("hide",b.textContent!=="All"&&c.dataset.c!==b.textContent)})};
+$("#sk").innerHTML=skills.map(function(s){return "<span>"+s+"</span>"}).join("");
+/* photo strip (replaces the moving skills text) */
+var gal=["jas.jpg","jas-2.jpg","jas-3.jpg","jas-4.jpg","jas-5.jpg","jas-6.jpg"],gs=["tall","mid","sm","mid","tall","sm"];
+var mq=gal.map(function(g){return '<div class="ph" data-img="'+g+'">JM</div>'}).join("");$("#mq").innerHTML=mq+mq;
+$("#yr").textContent=new Date().getFullYear();
+
+document.addEventListener("click",function(e){var c=e.target.closest(".card");if(!c)return;var w=works[c.dataset.i],p=$("#mi");
+ p.textContent=w.t;p.dataset.l=w.i;p.dataset.img=w.i;p.removeAttribute("data-done");loadImgs($("#md"));
+ $("#mc").textContent=w.c;$("#mt").textContent=w.t;$("#mp").textContent=w.d;$("#md").classList.add("open")});
+function closeM(){$("#md").classList.remove("open")}
+$("#mx").onclick=closeM;$("#md").onclick=function(e){if(e.target===this)closeM()};
+
+document.addEventListener("pointermove",function(e){var c=e.target.closest&&e.target.closest(".card");if(!c||matchMedia("(pointer:coarse)").matches)return;
+ var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform="perspective(900px) rotateX("+(-y*5)+"deg) rotateY("+(x*5)+"deg) translateY(-8px)"});
+document.addEventListener("pointerout",function(e){var c=e.target.closest&&e.target.closest(".card");if(c)c.style.transform=""});
+
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(!x.isIntersecting)return;x.target.classList.add("in");io.unobserve(x.target);
+ x.target.querySelectorAll("[data-n]").forEach(function(b){var n=+b.dataset.n,t0=performance.now();(function s(t){var p=Math.min((t-t0)/1400,1);b.textContent=Math.round(n*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(s)})(t0)})})},{threshold:.12});
+function watch(){$$(".page.act .rv:not(.in)").forEach(function(el){io.observe(el)})}
+
+function menu(o){document.body.classList.toggle("mo",o);$("#bg").setAttribute("aria-expanded",o);$("#bg").setAttribute("aria-label",o?"Close menu":"Open menu")}
+$("#bg").onclick=function(){menu(!document.body.classList.contains("mo"))};
+addEventListener("keydown",function(e){if(e.key==="Escape"){menu(false);closeM()}});
+
+var cur=$("#cur"),busy=false,names={home:"Home",profile:"Profile",work:"Work",services:"Services",gallery:"Gallery",about:"About",contact:"Contact"};
+function show(n){$$(".page").forEach(function(p){p.classList.toggle("act",p.id===n)});
+ $$(".menu button").forEach(function(b){b.classList.toggle("on",b.dataset.go===n)});
+ document.title=names[n]+" — Jas Martinez";scrollTo(0,0);loadImgs($("#"+n));watch()}
+function go(n){if(!names[n])n="home";var now=($(".page.act")||{}).id;menu(false);
+ if(n===now){scrollTo({top:0});return}
+ if(busy)return;busy=true;cur.textContent=names[n];
+ var a=cur.animate([{transform:"translateY(101%)"},{transform:"translateY(0)",offset:.45},{transform:"translateY(0)",offset:.6},{transform:"translateY(-101%)"}],{duration:1100,easing:"cubic-bezier(.7,0,.2,1)"});
+ setTimeout(function(){show(n);if(location.hash!=="#"+n)history.pushState(null,"","#"+n)},520);a.onfinish=function(){busy=false}}
+document.addEventListener("click",function(e){var g=e.target.closest("[data-go]");if(g){e.preventDefault();go(g.dataset.go)}});
+addEventListener("popstate",function(){var n=location.hash.slice(1);if(names[n])show(n)});
+
+(function(){var el=$("#tp"),r=0,c=0,d=0;(function t(){var w=roles[r];c+=d?-1:1;el.textContent=w.slice(0,c);var s=d?45:95;
+ if(!d&&c===w.length){s=1600;d=1}else if(d&&!c){d=0;r=(r+1)%roles.length;s=350}setTimeout(t,s)})()})();
+
+$("#f").onsubmit=function(e){e.preventDefault();location.href="mailto:"+EMAIL+"?subject="+encodeURIComponent("Hello from "+$("#n").value)+"&body="+encodeURIComponent($("#m").value+"\n\n— "+$("#n").value+" ("+$("#e").value+")")};
+
+var services=[["✦","Choreography","Original pieces for stage, screen, events and competitions."],["◈","Live Performance","Polished, high-energy performances for shows, festivals and private events."],["⌘","Music Videos & Film","Dancing and movement direction for videos, commercials and dance films."],["❖","Classes & Workshops","Technique, style and performance classes for every level."],["▣","Private Coaching","One-on-one training for auditions, competitions and performers."],["✿","Creative Direction","Concepts, staging and movement ideas for shows and brands."]];
+$("#sv").innerHTML=services.map(function(s,i){return '<div class="gl rv" style="--d:'+i*.08+'s"><div class="ic">'+s[0]+'</div><h3>'+s[1]+'</h3><p>'+s[2]+'</p></div>'}).join("");
+$("#bars").innerHTML=[["Technique",90],["Performance",95],["Choreography",90],["Musicality",95]].map(function(b){return '<p><span>'+b[0]+'</span><span>'+b[1]+'%</span></p><div class="bar"><i style="--w:'+b[1]+'%"></i></div>'}).join("");
+$("#gl").innerHTML=gal.map(function(g,i){return '<div class="gi ph '+gs[i]+'" data-i="'+i+'" data-l="'+g+'" data-img="'+g+'">JM</div>'}).join("");
+document.addEventListener("click",function(e){var g=e.target.closest(".gi");if(!g)return;var p=$("#mi");p.textContent="";p.dataset.l="";p.dataset.img=gal[g.dataset.i];p.removeAttribute("data-done");loadImgs($("#md"));
+ $("#mc").textContent="Gallery";$("#mt").textContent="Moment "+(+g.dataset.i+1);$("#mp").textContent="Replace with a short caption about this photo.";$("#md").classList.add("open")});
+(function(){var k="crsts",h="",m=innerWidth<700;for(var i=0;i<14;i++){var r=(m?80:140)+Math.random()*(m?170:430),s=28+Math.random()*92;
+ h+='<i class="sh '+k[i%5]+'" style="--r:'+r+'px;--s:'+s+'px;--t:'+(34+i*7)+'s;--dl:-'+i*5+'s;--rev:'+(i%2?"reverse":"normal")+'"></i>'}$("#shapes").innerHTML=h})();
+addEventListener("pointermove",function(e){var g=$("#gw");g.style.left=e.clientX+"px";g.style.top=e.clientY+"px"},{passive:true});
+addEventListener("scroll",function(){var m=document.documentElement.scrollHeight-innerHeight;$("#pb").style.width=(m>0?scrollY/m*100:0)+"%"},{passive:true});
+
+loadImgs($(".top"));
+/* soundtrack: starts when the visitor enters; the nav button toggles it */
+var au=$("#au"),snd=$("#snd"),wantSound=true;
+try{if(localStorage.getItem("jm-sound")==="off")wantSound=false}catch(e){}
+function paintSound(){snd.classList.toggle("off",au.paused);snd.setAttribute("aria-label",au.paused?"Play music":"Mute music")}
+function playSound(){au.volume=.6;var p=au.play();if(p&&p.catch)p.catch(function(){})}
+au.addEventListener("play",paintSound);au.addEventListener("pause",paintSound);
+au.addEventListener("error",function(){snd.style.display="none"});
+snd.onclick=function(){var on=au.paused;if(on)playSound();else au.pause();try{localStorage.setItem("jm-sound",on?"on":"off")}catch(e){}};
+/* intro splash: photo pops first, then the site opens */
+var sp=$("#sp");loadImgs(sp);
+function boot(){var s=location.hash.slice(1);show(names[s]?s:"home")}
+function enter(){if(sp.dataset.x)return;sp.dataset.x=1;sp.classList.add("out");document.body.classList.remove("sp-on");boot();if(wantSound)playSound();setTimeout(function(){sp.remove()},1300)}
+sp.querySelector(".btn").onclick=enter;
+addEventListener("keydown",function(e){if(e.key==="Enter")enter()});
+setTimeout(enter,5500);
+</script>
+</body>
+</html>
